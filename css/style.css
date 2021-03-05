@@ -1,32 +1,6 @@
-/* @media(max-width:600px){
-
-  *{
-    float:none;
-  }
-  .logo {
-    float: none;
-    text-align: center;
-  }
-   */
-  
-  
-  /* .navigation ul li a {
-    padding: 5px;
-    border-bottom: #444 dotted 1px;
-  }
-  
-  /* Showcase */
-  
-  /* .showcase-content {
-    padding-top: 70px;
-    padding-bottom: 30px;
-  } */
-  
-/*
-fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-/*fonts end here*/
+
 *{
   padding:0;
   margin:0;
@@ -34,10 +8,6 @@ fonts  */
 }
 html,body{
 line-height: 1.7em;
-/* background-image: url('../imgs/background.png') ;
-background-repeat: no-repeat;
-background-position: center center;
-background-size: cover; */
 background-color: black;
 }
 #container{
@@ -151,6 +121,27 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.centered2 {
+  font-size: 100px;
+  font-family: "Audiowide", sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.textlol{
+  font-size: 50px;
+  font-family: "Audiowide", sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 #greenText{
   color:greenyellow;
 }
@@ -176,6 +167,28 @@ img {
   box-shadow: 0 5px 50px 0 #00FF00 inset, 0 5px 50px 0 #00FF00,
   0 5px 50px 0 #00FF00 inset, 0 5px 50px 0 #15f458;
 }
+
+.button2{
+  border-radius:10px;           
+  text-decoration: none;
+  display: inline-block;
+  background-color:#333;
+  color:white;
+  font-size:30px;
+  padding:13px 20px;
+  border:none;
+  cursor:pointer;
+  position: absolute;
+  top: 75%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+
+.button2:hover{
+  box-shadow: 0 5px 50px 0 #ff0000 inset, 0 5px 50px 0 #ff0000,
+  0 5px 50px 0 #ff0000 inset, 0 5px 50px 0 #ff0000;
+}
+
 #whiteText{
   color:White;
 }
