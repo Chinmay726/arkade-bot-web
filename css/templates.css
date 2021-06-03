@@ -71,9 +71,9 @@ body , head{
   text-decoration: none;  
   padding-right:15px;
   }
-  .headd{
+  .head{
     /* color:white; */
-    color:lightblue;
+    color:greenyellow;
     font-size:40px;
     margin-top:100px;
   } 
@@ -135,11 +135,4 @@ body , head{
 }
 .vast-heading{
   font-family: 'ZCOOL KuaiLe', cursive;
-}
-img{
-  border-radius: 10px!important;
-
-}
-#gween{
-  color:yellowgreen!important;
 }
