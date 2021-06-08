@@ -239,6 +239,8 @@ img{
 
 }
 .faq{
+  scroll-snap-align: center;
+
   background-color: white;
   color:black;
   border:2px dotted white;
@@ -270,38 +272,13 @@ img{
   width: 100%;
   color: white;
   text-align: center;
+  scroll-snap-align: center;
+
 }
 .content{
   margin:20px;
 }
-.velocity{
-  margin:15px;
 
-  float:left;
-  width:46%;
-  box-sizing: border-box;
-  padding:15px;
-  border:1px dotted grey;
-  height:300px;
-  background-color:skyblue;
-  color:black;
-  border-radius: 10px;
-
-  }
-
-.gamur{
-  border-radius: 10px;
-
-  margin:15px ;
-  padding:15px;
-  float:right;
-  width:46%;
-  box-sizing: border-box;
-  border:1px dotted grey;
-  height:300px;
-  background-color: skyblue;
-  color:black;
-}
 .image{
   opacity:1;
   border-radius: 170%;
@@ -428,6 +405,7 @@ color:greenyellow;
   /* background-cover: */
   margin-top:0;
   padding-top:5.5rem;
+  
 }
 .main-heading-dark{
   font-size:3.6rem;
@@ -441,7 +419,7 @@ color:greenyellow;
   font-weight:400;
 }
 .help-img{
-  width:700px;
+  max-width:700px;
   height:500px;
   background:url('../imgs/image-removebg-preview.png');
   background-repeat: no-repeat;
@@ -525,3 +503,80 @@ color:greenyellow;
   font-weight:bold;
   text-align:center;
 }
+label{
+  width:26px;
+  float:right;
+  margin:0 40px 0 0;
+  font-size:26px;
+  line-height:70px;
+  display:none;
+  }
+#toggle{
+  display:none;
+}
+/* @media only screen and (max-width:500px){
+  label{
+    display:block;
+    cursor:pointer;
+  }
+  #navigation ul{
+    text-align:center;
+    display:none;
+    width:100%;
+  }
+  .navigation ul li{
+    display:block;
+    border:1px solid black;
+    margin:0;
+  }
+  #toggle:checked + #navigation ul{
+    display:block;
+    color:white; 
+
+  }
+
+  
+} */
+ @media only screen and (max-width: 800px) {
+      #navigation ul li{
+        display:block;
+        text-align: center;
+        margin-bottom:50px;
+      }
+    #navigation a:hover{
+      border-bottom:1px solid black;
+    }
+    
+    .title img{
+      display:none;
+
+    }
+    .title{
+      height:300px;
+      font-size:15px!important;
+    }
+    .features-img{
+      width:100%;
+      /* height:500px; */
+      background:url('../imgs/features-small.png');
+      background-repeat: no-repeat;
+      margin:auto;
+    }
+    .help-img{
+    
+      background:url('../imgs/small.png');
+      background-repeat: no-repeat;
+      margin:auto;
+    }
+    .help{
+      width:100%;
+      background-color: white;
+    }
+    .build-img{
+      display:none;
+    }
+    .serverbuilder{
+      height:300px;
+    }
+  
+} 
