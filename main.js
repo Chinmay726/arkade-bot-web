@@ -1,6 +1,6 @@
 // const check = document.getElementById('check');
 // console.log(check.checked)
-
+//pushh
 var checkBox = document.getElementById("check");
 var navigation = document.querySelector(".nav");
 console.log(navigation)
