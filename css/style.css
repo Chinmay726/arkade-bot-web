@@ -557,11 +557,11 @@ color:greenyellow;
     overflow:hidden;
     display:none;
     background-color:black;
-    width:70%;
+    width:60%;
     height:100vh;
-    
   }
   #navigation ul li{
+    margin-top:100px;
     display:block;
     text-align: center;
     margin-bottom:50px;
