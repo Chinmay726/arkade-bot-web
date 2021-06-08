@@ -206,7 +206,7 @@ img{
   height:300px;
 }
 .features-img{
-  width:100%;
+  width:70%;
   /* height:500px; */
   background:url('../imgs/features-small.png');
   background-repeat: no-repeat;
