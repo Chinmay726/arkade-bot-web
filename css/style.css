@@ -45,6 +45,8 @@ h1 , h2 , h3 , h4 , h5 , h6{
     padding: 10px;
   }
   #navigation{
+    user-select: none;
+    -webkit-user-select: none;
     /* opacity:0; */
     scroll-snap-align: center;
     font-family: 'SF Pro Display' , sans-serif;
@@ -551,9 +553,13 @@ color:greenyellow;
  @media only screen and (max-width: 800px) {
   
   #navigation label{
+    user-select: none;
     display:block;
+    -webkit-user-select: none;
   }
   #navigation ul{
+    -webkit-user-select: none;
+    user-select: none;
     overflow:hidden;
     display:none;
     background-color:black;

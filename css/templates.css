@@ -43,7 +43,9 @@ body , head{
     padding: 10px;
   }
   #navigation{
-
+    user-select: none;
+    -webkit-user-select: none;
+    /* opacity:0; */
     /* font-size: 10px; */
     font-size: 13px;
 
