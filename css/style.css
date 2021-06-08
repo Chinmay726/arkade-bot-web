@@ -559,9 +559,10 @@ color:greenyellow;
     background-color:black;
     width:60%;
     height:100vh;
+    margin-top:100px;
+
   }
   #navigation ul li{
-    margin-top:100px;
     display:block;
     text-align: center;
     margin-bottom:50px;
